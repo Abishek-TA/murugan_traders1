@@ -469,7 +469,7 @@ button{
   }
 }
 .about1{
-  background-color: #102C57;
+  background-color: #219C90;
 }
 .kumaran_pro{
   margin: 2% 8%;
@@ -490,6 +490,7 @@ button{
   margin: 0 10%;
 }
 .abprice{
+  margin-left: 2%;
   color: #1D24CA;
   font-family: "Trirong", serif;
 }
@@ -528,4 +529,73 @@ button{
 .w_cnt{
   width: 100%;
   margin: 0 10%;
+}
+.titleab1{
+  padding-top: 2%;
+  color: wheat;
+  font-size: 30px;
+}
+#card{
+  background-color: #495E57 ;
+}
+.vcardimg{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.vcardimg img{
+  padding: 3%;
+  width: 50%;
+}
+/*footer*/
+.foot1{
+  background: #303841;
+    color: #F6C90E;
+    padding: 0.5%;
+}
+.innerfooter{
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+.footname{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 75%;
+}
+.footcprights{
+  display: inline-flex;
+  flex-direction: column;
+  width: 75%;
+  margin-left: 45%;
+  margin-top: 2%;
+}
+.tele2{
+  color: #F5F7F8;
+  font-size: 20px;
+}
+.border1 {
+	height: 3px;
+	width: 75%;
+	background: #ff9800;
+	color: #ff9800;
+	background-color: #ff9800;
+	border: 0px;
+}
+.srih1{
+  font-size: 50px;
+  margin-left: 1%;
+}
+.srih2{
+  margin-left: 19%;
+  font-size: 30px;
+  justify-content: space-between;
+}
+.srih3{
+  margin-left: 7%;
+}
+.logo1{
+  margin: 0% 60%;
 }

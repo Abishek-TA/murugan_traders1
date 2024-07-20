@@ -170,72 +170,6 @@ button{
   background-color: deeppink;
   border-radius:8px;
 }
-@media screen and (max-width: 1280px){
-  .input-box{
-    position: relative;
-  height: 76px;
-  max-width: auto;
-  width: 100%;
-  background: none;
-  margin: 5% 0%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-  border: solid #1f1818;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  }
-  .carousel-view .item-list {
-  max-width: auto;
-  width: 75vw;
-  padding: 50px 10px;
-  display: flex;
-  gap: 33px;
-  scroll-behavior: smooth;
-  transition: all 0.25s ease-in;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  overflow: auto;
-  scroll-snap-type: x mandatory;
-}
-}
-@media screen and (max-width: 950px){
-    .container{
-        width:auto;
-        height: auto;
-    }
-    .item{
-        min-width: 100px;
-        height: 100px;
-    }
-}
-@media screen and (max-width: 700px){
-    .container{
-        width:auto;
-        height: auto;       
-        margin-left:50px;
-        margin-right: 40px;
-    }
-    .item{
-        min-width: 200px;
-        height: 200px;
-        margin-left:50px;
-        margin-right: 40px;
-    }
-    
-  .carousel-view .item-list {
-    max-width: auto;
-    width: 60vw;
-    padding: 50px 10px;
-    display: flex;
-    gap: 33px;
-    scroll-behavior: smooth;
-    transition: all 0.25s ease-in;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    overflow: auto;
-    scroll-snap-type: x mandatory;
-  }
-}
 .container2{
   margin: 1% 0%;
   height: 22vw;
@@ -283,72 +217,6 @@ button{
   height: 240px;
   background-color: deeppink;
   border-radius:8px;
-}
-@media screen and (max-width: 1280px){
-  .input-box{
-    position: relative;
-  height: 76px;
-  max-width: auto;
-  width: 100%;
-  background: none;
-  margin: 5% 0%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-  border: solid #1f1818;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  }
-  .carousel-view2 .item-list {
-  max-width: auto;
-  width: 75vw;
-  padding: 50px 10px;
-  display: flex;
-  gap: 33px;
-  scroll-behavior: smooth;
-  transition: all 0.25s ease-in;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  overflow: auto;
-  scroll-snap-type: x mandatory;
-}
-}
-@media screen and (max-width: 950px){
-    .container2{
-        width:auto;
-        height: auto;
-    }
-    .item2{
-        min-width: 100px;
-        height: 100px;
-    }
-}
-@media screen and (max-width: 700px){
-    .container2{
-        width:auto;
-        height: auto;       
-        margin-left:50px;
-        margin-right: 40px;
-    }
-    .item2{
-        min-width: 200px;
-        height: 200px;
-        margin-left:50px;
-        margin-right: 40px;
-    }
-    
-  .carousel-view2 .item-list2 {
-    max-width: auto;
-    width: 60vw;
-    padding: 50px 10px;
-    display: flex;
-    gap: 33px;
-    scroll-behavior: smooth;
-    transition: all 0.25s ease-in;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    overflow: auto;
-    scroll-snap-type: x mandatory;
-  }
 }
 .container3 {
   margin-top: 1%;
@@ -401,72 +269,6 @@ button{
   height: 240px;
   background-color: deeppink;
   border-radius:8px;
-}
-@media screen and (max-width: 1280px){
-  .input-box{
-    position: relative;
-  height: 76px;
-  max-width: auto;
-  width: 100%;
-  background: none;
-  margin: 5% 0%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-  border: solid #1f1818;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  }
-  .carousel-view3 .item-list3 {
-  max-width: auto;
-  width: 75vw;
-  padding: 50px 10px;
-  display: flex;
-  gap: 33px;
-  scroll-behavior: smooth;
-  transition: all 0.25s ease-in;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  overflow: auto;
-  scroll-snap-type: x mandatory;
-}
-}
-@media screen and (max-width: 950px){
-    .container3{
-        width:auto;
-        height: auto;
-    }
-    .item3{
-        min-width: 100px;
-        height: 100px;
-    }
-}
-@media screen and (max-width: 700px){
-    .container3{
-        width:auto;
-        height: auto;       
-        margin-left:50px;
-        margin-right: 40px;
-    }
-    .item3{
-        min-width: 200px;
-        height: 200px;
-        margin-left:50px;
-        margin-right: 40px;
-    }
-    
-  .carousel-view3 .item-list3 {
-    max-width: auto;
-    width: 60vw;
-    padding: 50px 10px;
-    display: flex;
-    gap: 33px;
-    scroll-behavior: smooth;
-    transition: all 0.25s ease-in;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    overflow: auto;
-    scroll-snap-type: x mandatory;
-  }
 }
 .about1{
   background-color: #219C90;
@@ -598,4 +400,79 @@ button{
 }
 .logo1{
   margin: 0% 60%;
+}
+
+@media screen and (max-width: 1280px){
+  .input-box{
+    position: relative;
+  height: 76px;
+  max-width: auto;
+  width: 100%;
+  background: none;
+  margin: 5% 0%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  border: solid #1f1818;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  .carousel-view .item-list {
+  max-width: auto;
+  width: 75vw;
+  padding: 50px 10px;
+  display: flex;
+  gap: 33px;
+  scroll-behavior: smooth;
+  transition: all 0.25s ease-in;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+}
+}
+@media screen and (max-width: 950px){
+    .container, .container2, .container3{
+        width:auto;
+        height: auto;
+    }
+    .item, .item2, .item3{
+        min-width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 700px){
+  .prof1{
+    width: 50%;
+    height: auto;
+  }
+  .photo1{
+    width: 40%;
+  }
+/*for slider*/
+    .container, .container2, .container3{
+        width:auto;
+        height: auto;       
+        margin-left:50px;
+        margin-right: 40px;
+    }
+    .item, .item2, .item3{
+        min-width: 200px;
+        height: 200px;
+        margin-left:50px;
+        margin-right: 40px;
+    }
+    
+  .carousel-view .item-list, .carousel-view2 .item-list2, .carousel-view3 .item-list3 {
+    max-width: auto;
+    width: 40px;
+    padding: 50px 10px;
+    display: flex;
+    gap: 33px;
+    scroll-behavior: smooth;
+    transition: all 0.25s ease-in;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+  }
 }

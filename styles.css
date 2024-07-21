@@ -394,11 +394,11 @@ button{
   }
   .k_img, .m_img, .w_img{
     border-radius: 10px;
-    width: 403px;
+    width: 80%;
     height: 203px;
   }
   .k_img img, .w_img img, .m_img img{
-    width: 400px;
+    width: 100%;
     height: 200px;
     border-radius: 10px;
   }

@@ -6,55 +6,14 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #8B9A46;
-}
-.headcont{
-    position: fixed;
-    background: #303841;
-    color: #F6C90E;
-    padding: 10px 0;
-    width: 60%;
-    margin-top: 5px;
-    left: 21%;
-    border-radius: 10px;
-    z-index: 1;
-}
-nav{
-    display: inline-flex;
-    width: 100%;
-    text-align: center;
-}
-ul{
-    display: flex;
-    align-items: center;
-}
-nav ul {
-    list-style-type: none;
-}
-ul li{
-    margin-right: 20%;
-}
-ul li a{
-    text-decoration: none;
-    color: #fff;
-}
-#name1{
-    margin: 0% 2%;
-}
-.main_list{
-    text-align: center;
-    margin: 0% 24%;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-}
-.social_list{
-    display: inline-flex;
-    align-items: center;
-}
+} 
+/*for profile*/
 .photo1{
     margin: 5%;
-    
+}
+.prof1{
+  padding-top: 2%;
+  background-color: #8B9A46;
 }
 .content1{
     display: inline-flex;
@@ -85,27 +44,41 @@ ul li a{
   font-size: 20px;
   color: #7E30E1;
 }
-.btnprof1, .btnprof1 a{
-    background: #0C1844;
-    color: #FFBF00;
-    width: 20%;
-    height: 50px;
-    border-radius: 12px;
-    font-size: 20px;
-    text-decoration: none;
-}
-.btndiv{
+/*---------------------------------------*/
+@media only screen and (max-width: 700px) { 
+  .photo1{
+    margin: 1%;
+  }
+  .prof1{
+    padding: 8% 3% 0% 3%;
+    background-color: #8B9A46;
+  }
+  .profile{
     display: inline-flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+      margin: 15% 0%;
+      width: 100%;
+      border-radius: 15px;
+      background-color: #EEEEEE;
+  }
+  #dealcnt1{
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0%;
+  }
+  .content1{
+    margin: 0;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
-    margin: 3% 0%;
-    gap: 10%
+    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+} 
 }
-.main_anc{
-    color: #F6C90E;
-}
-
+/*for product*/
 #product{
     background-color: #FEF3E2;
     padding: 0% 5%;
@@ -270,6 +243,7 @@ button{
   background-color: deeppink;
   border-radius:8px;
 }
+/*about*/
 .about1{
   background-color: #219C90;
 }
@@ -337,6 +311,7 @@ button{
   color: wheat;
   font-size: 30px;
 }
+/*for card*/
 #card{
   background-color: #495E57 ;
 }
@@ -398,81 +373,106 @@ button{
 .srih3{
   margin-left: 7%;
 }
-.logo1{
-  margin: 0% 60%;
-}
-
-@media screen and (max-width: 1280px){
-  .input-box{
-    position: relative;
-  height: 76px;
-  max-width: auto;
-  width: 100%;
-  background: none;
-  margin: 5% 0%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-  border: solid #1f1818;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+/*-------------------for about respo--------------------*/
+@media only screen and (max-width: 700px) {
+  .about1{
+    background-color: #219C90;
+    padding-bottom: 1%;
   }
-  .carousel-view .item-list {
-  max-width: auto;
-  width: 75vw;
-  padding: 50px 10px;
-  display: flex;
-  gap: 33px;
-  scroll-behavior: smooth;
-  transition: all 0.25s ease-in;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  overflow: auto;
-  scroll-snap-type: x mandatory;
-}
-}
-@media screen and (max-width: 950px){
-    .container, .container2, .container3{
-        width:auto;
-        height: auto;
-    }
-    .item, .item2, .item3{
-        min-width: 100px;
-        height: 100px;
-    }
-}
-@media screen and (max-width: 700px){
-  .prof1{
-    width: 50%;
-    height: auto;
+  .titleab1{
+    color: #000;
   }
-  .photo1{
-    width: 40%;
-  }
-/*for slider*/
-    .container, .container2, .container3{
-        width:auto;
-        height: auto;       
-        margin-left:50px;
-        margin-right: 40px;
-    }
-    .item, .item2, .item3{
-        min-width: 200px;
-        height: 200px;
-        margin-left:50px;
-        margin-right: 40px;
-    }
-    
-  .carousel-view .item-list, .carousel-view2 .item-list2, .carousel-view3 .item-list3 {
-    max-width: auto;
-    width: 40px;
-    padding: 50px 10px;
+  .kumaran_pro, .wili_pro{
     display: flex;
-    gap: 33px;
-    scroll-behavior: smooth;
-    transition: all 0.25s ease-in;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    overflow: auto;
-    scroll-snap-type: x mandatory;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 2%;
+    padding: 2%;
+  }
+  .k_img, .m_img, .w_img{
+    border-radius: 10px;
+    width: 403px;
+    height: 203px;
+  }
+  .k_img img, .w_img img, .m_img img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .k_cnt, .m_cnt, .w_cnt{
+    margin: 2%;
+    border: 1px solid #000;
+    background-color: #d5d5d5;
+    text-align: center;
+    font-size: medium;
+    border-radius: 10px;
+  } 
+  .moonpro{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 2%;
+  }
+} 
+/*for card*/
+@media only screen and (max-width: 700px) {
+  .vcardimg{
+    display: block;
+  }
+  .vcardimg img{
+    width: 100%;
+  }
+  .ctitle{
+    text-align: center;
+    color: #eef60e;
+    padding: 2%;
+  }
+}
+/*for card*/
+@media only screen and (max-width: 700px) {
+  .foot1{
+    padding: 0;
+    text-align: center;
+  }
+  .innerfooter{
+    display: block;
+  }
+  .footname{
+    text-align: center;
+    width: 100%;
+  }
+  .srih1{
+    width: 100%;
+    text-align: center;
+  }
+  .srih2{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+  .border1{
+    height: 3px;
+    width: 75%;
+    background: #ff9800;
+    color: #ff9800;
+    background-color: #ff9800;
+    border: 0px;
+    margin: 0 13%;
+  }
+  .srih3{
+    width: 100%;
+    text-align: center;
+  }
+  .footcprights{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: center;
   }
 }

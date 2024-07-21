@@ -1,0 +1,123 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    font-family: "futura md bt"; 
+    text-decoration: none; 
+    list-style: none; 
+    box-sizing: border-box; 
+}
+.head1{
+    display: inline-flex;
+}
+#name1{
+    width: 50%;
+    margin: 0 3%;
+}
+header { 
+    background: #303841;
+    color: #F6C90E;
+    width: 60%; 
+    display: flex;
+    position: fixed; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin: 1% 0%;
+    left: 22%;   
+    padding: 10px 0; 
+    border-radius: 10px; 
+  } 
+  header .logo { 
+      color: aliceblue;
+      font-size: 30px; 
+      text-transform: uppercase; 
+      margin: 0 6%;
+      width: 100%;
+  } 
+  nav{
+    width: 50%;
+  }
+  header nav ul { 
+      display: flex; 
+  } 
+  header nav ul li a { 
+      display: inline-block; 
+      color: #F8c765; 
+      padding: 5px 0; 
+      margin: 0 10px;
+      border: 3px solid transparent; 
+      transition: 0.2s; 
+  } 
+  header nav ul li a:hover{ 
+      border-bottom-color: none;
+      color: #fff;
+  } 
+  .hamburger { 
+      cursor: pointer; 
+      display: none; 
+  } 
+  .hamburger div { 
+      width: 30px; 
+      height: 3px; 
+      margin: 5px 0; 
+      background: #fff; 
+  }
+  button a{
+      color: black;font-weight: bold;font-size: 15px; text-decoration: none;
+  }
+  .logo1{
+    margin-top: 0.5%;
+  }
+  .logo2{
+    margin-top: 0.5%;
+  }
+  /*---------------------------------------*/
+  @media only screen and (max-width: 700px) { 
+      header{ 
+        background: #303841;
+        color: #F6C90E;
+        width: 100%;
+        left: 0;
+        display: flex;
+        position: absolute; 
+        align-items: center; 
+        justify-content: space-between; 
+        margin-top: 0; 
+        border-radius: 0px; 
+      } 
+      #name1{
+        width: 80%;
+      }
+  } 
+  @media only screen and (max-width: 700px) { 
+      .hamburger { 
+          display: block;
+          position: relative; 
+          z-index: 1;
+          width: 15%;
+      }
+      header nav { 
+          z-index: 1;
+          position: absolute; 
+          left: -100%; 
+          margin-top: 360px; 
+          width: 100%;
+          color: #000;
+          /* From https://css.glass */
+          background: rgba(0, 0, 0, 0.76);
+          border-radius: 0;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+          backdrop-filter: blur(5px);
+          -webkit-backdrop-filter: blur(3.5px);
+          padding: 10px;
+          transition: 0.3s; 
+      } 
+      header #nav_check:checked ~ nav { 
+          left: 0; 
+      } 
+      header nav ul { 
+          display: block; 
+      } 
+      header nav ul li a { 
+          margin: 4px 0; 
+    }
+}  

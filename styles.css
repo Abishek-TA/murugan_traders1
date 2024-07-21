@@ -394,7 +394,7 @@ button{
   }
   .k_img, .m_img, .w_img{
     border-radius: 10px;
-    width: 80%;
+    width: 50%;
     height: 203px;
   }
   .k_img img, .w_img img, .m_img img{
